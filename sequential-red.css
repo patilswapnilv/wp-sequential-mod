@@ -1,0 +1,130 @@
+/*
+	Theme: 			 Sequential v1.1
+	URL: 	 			 https://theme.wordpress.com/themes/sequential/
+	Description: Replaces the violet parts (#615f8b) with red (#ff0000).
+							 Use the CSS Stylesheet Editor (http://jetpack.me/support/custom-css/).
+*/
+
+/*--------------------------------------------------------------
+2.0 Typography
+--------------------------------------------------------------*/
+mark,
+ins {
+	background: #ff0000;
+}
+
+/*--------------------------------------------------------------
+4.0 Forms
+--------------------------------------------------------------*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background: #ff0000;
+}
+
+.search-form:before {
+	background: #ff0000;
+}
+
+/*--------------------------------------------------------------
+5.1 Links
+--------------------------------------------------------------*/
+a.button {
+	background: #ff0000;
+}
+
+a.button-minimal {
+	padding: 9px 21px;
+	border: 3px solid #ff0000;
+	color: #ff0000;
+}
+
+a.button-minimal:hover,
+a.button-minimal:focus,
+a.button-minimal:active {
+	background: #ff0000;
+}
+
+.footer-widget-area a.button,
+.hero a.button,
+.site-header a.button {
+	color: #ff0000;
+}
+
+.footer-widget-area a.button-minimal:hover,
+.footer-widget-area a.button-minimal:focus,
+.footer-widget-area a.button-minimal:active,
+.hero a.button-minimal:hover,
+.hero a.button-minimal:focus,
+.hero a.button-minimal:active,
+.site-header a.button-minimal:hover,
+.site-header a.button-minimal:focus,
+.site-header a.button-minimal:active {
+	color: #ff0000;
+}
+
+/*--------------------------------------------------------------
+5.3 Main Navigation
+--------------------------------------------------------------*/
+.menu-primary {
+	background: #ff0000;
+}
+
+.main-navigation.toggled .menu-primary {
+	border-top: 3px solid #ff0000;
+}
+
+.main-navigation li {
+	border-bottom: 1px solid #ff0000;
+}
+
+.sub-menu.toggle-on {
+	border-top: 1px solid #ff0000;
+}
+
+.dropdown-toggle:before {
+	background: #ff0000;
+}
+
+/*--------------------------------------------------------------
+10.4 Blocks
+--------------------------------------------------------------*/
+.site-header {
+	background: #ff0000;
+}
+
+.footer-navigation,
+.hero,
+.site-footer {
+	background: #ff0000;
+}
+
+/*--------------------------------------------------------------
+11.5 Comments
+--------------------------------------------------------------*/
+.bypostauthor > .comment-body .fn {
+	background: #ff0000;
+}
+
+/*--------------------------------------------------------------
+13.3 Infinite Scroll
+--------------------------------------------------------------*/
+#infinite-footer .container {
+	background: #ff0000;
+}
+
+#infinite-handle span {
+	background: #ff0000;
+}
+
+/*--------------------------------------------------------------
+13.4 Sharedaddy
+--------------------------------------------------------------*/
+.sd-social a:before {
+	background: #ff0000;
+}
+
+.hero .sd-social a:before {
+	color: #ff0000;
+}
