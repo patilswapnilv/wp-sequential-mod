@@ -1,12 +1,16 @@
 /*
   Theme:       Sequential v1.1
   URL:         https://theme.wordpress.com/themes/sequential/
-  Description: Replaces the violet parts (#615f8b) with orange (#f5b907).
+  Description: Replaces the violet parts (#615f8b) with red (#f5b907).
+							 Replaces the white parts in the header with anthracite (#424242).
 */
-
 /*--------------------------------------------------------------
 2.0 Typography
 --------------------------------------------------------------*/
+.hero {
+	color: #424242;
+}
+
 mark,
 ins {
 	background: #f5b907;
@@ -63,6 +67,11 @@ a.button-minimal:active {
 	color: #f5b907;
 }
 
+.site-header .main-navigation a,
+.site-header .main-navigation a {
+	color: #424242;
+}
+
 /*--------------------------------------------------------------
 5.3 Main Navigation
 --------------------------------------------------------------*/
@@ -84,6 +93,11 @@ a.button-minimal:active {
 
 .dropdown-toggle:before {
 	background: #f5b907;
+}
+
+.menu-toggle {
+	background: #424242;
+	color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -126,4 +140,15 @@ a.button-minimal:active {
 
 .hero .sd-social a:before {
 	color: #f5b907;
+}
+
+/*--------------------------------------------------------------
+16.0 Responsive
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+16.3 x >= 1020px
+--------------------------------------------------------------*/
+.main-navigation .current_page_item a,
+.main-navigation .current-menu-item a {
+	border-bottom-color: #424242;
 }
