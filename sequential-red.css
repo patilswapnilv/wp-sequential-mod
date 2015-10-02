@@ -2,6 +2,7 @@
   Theme:       Sequential v1.1
   URL:         https://theme.wordpress.com/themes/sequential/
   Description: Replaces the violet parts (#615f8b) with red (#ff0000).
+	             Replaces the turquoise (#83C2BC) links in the content sections with anthracite (#424242).
 */
 
 /*--------------------------------------------------------------
@@ -29,6 +30,11 @@ input[type="submit"] {
 /*--------------------------------------------------------------
 5.1 Links
 --------------------------------------------------------------*/
+
+a {
+	color: #424242;
+}
+
 a.button {
 	background: #ff0000;
 }
@@ -61,6 +67,10 @@ a.button-minimal:active {
 .site-header a.button-minimal:focus,
 .site-header a.button-minimal:active {
 	color: #ff0000;
+}
+
+h6 a:active {
+	color: #424242;
 }
 
 /*--------------------------------------------------------------
@@ -104,6 +114,12 @@ a.button-minimal:active {
 --------------------------------------------------------------*/
 .bypostauthor > .comment-body .fn {
 	background: #ff0000;
+}
+
+.comment .fn a:hover,
+.comment .fn a:focus,
+.comment .fn a:active {
+	color: #424242;
 }
 
 /*--------------------------------------------------------------
