@@ -1,0 +1,154 @@
+/*
+  Theme:       Sequential v1.1
+  URL:         https://theme.wordpress.com/themes/sequential/
+  Description: Replaces the violet parts (#615f8b) with white (#ffffff).
+							 Replaces the white parts in the header with anthracite (#424242).
+*/
+/*--------------------------------------------------------------
+2.0 Typography
+--------------------------------------------------------------*/
+.hero {
+	color: #424242;
+}
+
+mark,
+ins {
+	background: #ffffff;
+}
+
+/*--------------------------------------------------------------
+4.0 Forms
+--------------------------------------------------------------*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background: #ffffff;
+}
+
+.search-form:before {
+	background: #ffffff;
+}
+
+/*--------------------------------------------------------------
+5.1 Links
+--------------------------------------------------------------*/
+a.button {
+	background: #ffffff;
+}
+
+a.button-minimal {
+	padding: 9px 21px;
+	border: 3px solid #ffffff;
+	color: #ffffff;
+}
+
+a.button-minimal:hover,
+a.button-minimal:focus,
+a.button-minimal:active {
+	background: #ffffff;
+}
+
+.footer-widget-area a.button,
+.hero a.button,
+.site-header a.button {
+	color: #ffffff;
+}
+
+.footer-widget-area a.button-minimal:hover,
+.footer-widget-area a.button-minimal:focus,
+.footer-widget-area a.button-minimal:active,
+.hero a.button-minimal:hover,
+.hero a.button-minimal:focus,
+.hero a.button-minimal:active,
+.site-header a.button-minimal:hover,
+.site-header a.button-minimal:focus,
+.site-header a.button-minimal:active {
+	color: #ffffff;
+}
+
+.site-header .main-navigation a,
+.site-header .main-navigation a {
+	color: #424242;
+}
+
+/*--------------------------------------------------------------
+5.3 Main Navigation
+--------------------------------------------------------------*/
+.menu-primary {
+	background: #ffffff;
+}
+
+.main-navigation.toggled .menu-primary {
+	border-top: 3px solid #ffffff;
+}
+
+.main-navigation li {
+	border-bottom: 1px solid #ffffff;
+}
+
+.sub-menu.toggle-on {
+	border-top: 1px solid #ffffff;
+}
+
+.dropdown-toggle:before {
+	background: #ffffff;
+}
+
+.menu-toggle {
+	background: #424242;
+	color: #fff;
+}
+
+/*--------------------------------------------------------------
+10.4 Blocks
+--------------------------------------------------------------*/
+.site-header {
+	background: #ffffff;
+}
+
+.footer-navigation,
+.hero,
+.site-footer {
+	background: #ffffff;
+}
+
+/*--------------------------------------------------------------
+11.5 Comments
+--------------------------------------------------------------*/
+.bypostauthor > .comment-body .fn {
+	background: #ffffff;
+}
+
+/*--------------------------------------------------------------
+13.3 Infinite Scroll
+--------------------------------------------------------------*/
+#infinite-footer .container {
+	background: #ffffff;
+}
+
+#infinite-handle span {
+	background: #ffffff;
+}
+
+/*--------------------------------------------------------------
+13.4 Sharedaddy
+--------------------------------------------------------------*/
+.sd-social a:before {
+	background: #ffffff;
+}
+
+.hero .sd-social a:before {
+	color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+16.0 Responsive
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+16.3 x >= 1020px
+--------------------------------------------------------------*/
+.main-navigation .current_page_item a,
+.main-navigation .current-menu-item a {
+	border-bottom-color: #424242;
+}
