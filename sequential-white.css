@@ -3,6 +3,7 @@
   URL:         https://theme.wordpress.com/themes/sequential/
   Description: Replaces the violet parts (#615f8b) with white (#ffffff).
 							 Replaces the white parts in the header with anthracite (#424242).
+							 Replaces the turquoise (#83C2BC) links in the content sections with anthracite (#424242).
 */
 /*--------------------------------------------------------------
 2.0 Typography
@@ -33,6 +34,11 @@ input[type="submit"] {
 /*--------------------------------------------------------------
 5.1 Links
 --------------------------------------------------------------*/
+
+a {
+	color: #424242;
+}
+
 a.button {
 	background: #ffffff;
 }
@@ -69,6 +75,10 @@ a.button-minimal:active {
 
 .site-header .main-navigation a,
 .site-header .main-navigation a {
+	color: #424242;
+}
+
+h6 a:active {
 	color: #424242;
 }
 
@@ -118,6 +128,12 @@ a.button-minimal:active {
 --------------------------------------------------------------*/
 .bypostauthor > .comment-body .fn {
 	background: #ffffff;
+}
+
+.comment .fn a:hover,
+.comment .fn a:focus,
+.comment .fn a:active {
+	color: #424242;
 }
 
 /*--------------------------------------------------------------
