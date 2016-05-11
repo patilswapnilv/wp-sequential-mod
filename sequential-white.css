@@ -4,6 +4,7 @@
   Description: Replaces the violet parts (#615f8b) with white (#ffffff).
 							 Replaces the white parts in the header with anthracite (#424242).
 							 Replaces the turquoise (#83C2BC) links in the content sections with anthracite (#424242).
+							 Links in Header Entry Content are anthracite (#424242) and brighter (#e2e2e2) when in focus.
 */
 /*--------------------------------------------------------------
 2.0 Typography
@@ -80,6 +81,15 @@ a.button-minimal:active {
 
 h6 a:active {
 	color: #424242;
+}
+
+.hero .entry-content a {
+	color: #424242;
+}
+
+.hero .entry-content a:hover,
+.hero .entry-content a:focus {
+	color: #e2e2e2;
 }
 
 /*--------------------------------------------------------------
